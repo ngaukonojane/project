@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+
+    <title>My School</title>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" align="left">
+    <a class="navbar-brand" href="index.php">My School</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse " id="navbarNavDropdown" align="left" >
+    <ul class="navbar-nav">
+      <li class="nav-item >
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active"">
+        <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="academic.html">Academics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faculty.html">Faculty</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="clubs.html">Clubs&Socities</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Admission
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="application.html">Apply Online</a>
+          <a class="dropdown-item" href="admission.html">Admission Process</a>
+          <a class="dropdown-item" href="admission.html">Fee Stracture</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+</head>
+  <body>
+    <div class="about-text">
+    <div class="container-fluid">
+      <h2>Always at the top</h2>
+      <p>The school is among the best performing high schools in the country academically, ranked amongst the top 10 positions every year. Bush holds the country record for most consecutive years holding the pole position in the national exams (1960–1985). In the K.C.S.E results announced in 2011, the school emerged top in the country. In that same year, the school had more than 100 students scoring a mean grade of A in the national exams.
+
+      Every year, over 98% of the school’s graduates get admission to Kenyan universities. Students from the school also proceed to join Ivy League Universities, such as Harvard, Yale and Brown University. Many attend other prestigious American universities like Stanford University, Duke University, Williams College and MIT. Others go on to attend universities in Australia, China,Japan, Malaysia, South Africa, the United Kingdom and other countries</p>
+    </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="chartContainer" class="col-ms-3" ">
+        </div>
+    </div>
+    
+    
+    <script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer", {
+
+      title:{
+        text: "KCSE RESULTS "              
+      },
+      data: [//array of dataSeries              
+        { //dataSeries object
+
+         /*** Change type "column" to "bar", "area", "line" or "pie"***/
+         type: "column",
+         dataPoints: [
+         { label: "2014", y: 18 },
+         { label: "2015", y: 29 },
+         { label: "2016", y: 48 },                                    
+         { label: "2017", y: 34 },
+         { label: "2018", y: 44 }
+         ]
+       }
+       ]
+     });
+
+    chart.render();
+  }
+  </script>
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

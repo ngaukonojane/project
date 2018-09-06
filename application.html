@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" type="text/js" href="javascript.js">
+
+    <title>My School</title>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" align="left">
+    <a class="navbar-brand" href="index.php">My School</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse " id="navbarNavDropdown" align="left" >
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="academic.html">Academics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faculty.html">Faculty</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="clubs.html">Clubs&Socities</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Admission
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="application.html">Apply Online</a>
+          <a class="dropdown-item" href="admission.html">Admission Process</a>
+          <a class="dropdown-item" href="admission.html">Fee Stracture</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+</head>
+  <body>
+
+     <div class="col-md-9">
+      <div class="container-fluid">
+      <legend>Personal Details</legend>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="fname">Firstname</label>
+            <input type="txt" class="form-control" name="name" id="fname" placeholder="John">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="sname">Surname</label>
+            <input type="text" class="form-control" name="sname" id="sname" placeholder="Doe">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="Email" class="form-control" name="email" id="email" placeholder="johndoe@email.com">
+          <small  class="form-text text-muted">
+            optional
+          </small>
+        </div>
+        <div class="form-group">
+          <label for="phonenumber">Phone Number</label>
+          <input type="number" class="form-control" name="phonenumber" id="phonenumber" placeholder="+25412345678">
+          <small  class="form-text text-muted">
+            Kindly input country code
+          </small>
+        </div>
+        <div class="form-group">
+          <label for="index">KCSE Index Number</label>
+          <input type="number" class="form-control" name="index" id="index" placeholder="5412345678">
+          <small id="passwordHelpBlock" class="form-text text-muted">
+            must be your original kcse index number
+          </small>
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" class="form-control">
+            <option selected>Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Not sure</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="date">Date Of Birth</label>
+          <input type="date" class="form-control" name="date" id="date" placeholder="15/05/2005">
+        </div>
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" class="form-control" name="age" id="age" placeholder="13">
+        </div>
+        <div class="form-group">
+          <label for="religion">Religion</label>
+          <input type="text" class="form-control" name="religion" id="religion" placeholder="Christian">
+        </div>
+
+
+        <div class="form-group">
+          <label for="school">Current School</label>
+          <input type="text" class="form-control" name="school" id="school" placeholder="johndoe@email.com">
+        </div>
+        <br><br>
+        <legend>Partent/Gardian Details</legend>
+
+         <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="pname">Firstname</label>
+            <input type="txt" class="form-control" name="pname" id="pname" placeholder="John">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="psname">Surname</label>
+            <input type="text" class="form-control" name="psname" id="psname" placeholder="Doe">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="pgender">Gender</label>
+          <select id="pgender" name="pgender" class="form-control">
+            <option selected>Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+         <div class="form-group">
+          <label for="pnumber">Phone Number</label>
+          <input type="number" class="form-control" name="pnumber" id="pnumber" placeholder="+25412345678">
+        </div>
+        <div class="form-group">
+          <label for="pmail">Email</label>
+          <input type="Email" class="form-control" name="pmail" id="pmail" placeholder="johndoe@email.com">
+        </div>
+        <br><br>
+
+        <legend>KCSE GRADES</legend>
+
+        <div class="form-group">
+          <label for="indexnum">KCSE Index Number</label>
+          <input type="number" class="form-control" name="indexnum" id="indexnum" placeholder="+25412345678">
+        </div>
+
+        <div class="form-group">
+          <label for="english">English</label>
+          <select id="english" name="english" class="form-control">
+            <option selected>Grade</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+          </select>
+        </div>
+
+         <div class="form-group">
+          <label for="kiswahili">Kiswahili</label>
+          <select id="kiswahili" name="kiswahili" class="form-control">
+            <option selected>Grade</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+          </select>
+        </div>
+
+         <div class="form-group">
+          <label for="inputState">Maths</label>
+          <select id="inputState" class="form-control">
+            <option selected>Grade</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+          </select>
+        </div>
+
+         <div class="form-group">
+          <label for="science">Science</label>
+          <select id="science" name="science" class="form-control">
+            <option selected>Grade</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+          </select>
+        </div>
+
+         <div class="form-group">
+          <label for="sst">Social Studies & Religious Educatio</label>
+          <select id="sst" name="sst" class="form-control">
+            <option selected>Grade</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="mgp">KCPE Marks</label>
+          <input type="number" class="form-control" name="mgp" id="mgp" placeholder="410">
+        </div>
+
+        <div class="form-group" style="margin-bottom: 0;">
+          <div class="col-sm-offset-2 col-sm-10">
+            <input name="tag" type="hidden" id="tag" value="application">
+            <button type="submit" class="col-sm-2 btn btn-info">Apply</button>
+          </div>
+      </div>
+      </form>
+      </div>
+    </div>
+     
+  
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
